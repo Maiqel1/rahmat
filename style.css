@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+*{
+font-family: 'Poppins', sans-serif;
+}
+
+
+/*HEADER STYLING*/
+
+ /* .navbar {
+    overflow: hidden;
+    position: relative; 
+    top: 0; 
+    width: 100%;
+    background-color: grey;
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+    .navbar a:hover {
+    background: #ddd;
+    color: black;
+  } */
+  
+.header{
+    height: 600px;
+    width: 100%;
+    /* background-image: url(pexels-andrea-piacquadio-919436.jpg); */
+    background-image: url(img/pexels-cottonbro-4101143.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center center;   
+    /* margin-top: -87px; */
+
+}
+
+.header-text{
+    color: white;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+/* OUR SERVICES STYLING */
+
+.caro{
+    height: 350px;
+}
+
+footer{
+    height: 100%;
+}
+
+.footerLinks{
+}
