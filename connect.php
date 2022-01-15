@@ -4,6 +4,7 @@
 	$firstName = $_POST['firstName'];
 	$lastName = $_POST['lastName'];
 	$gender = $_POST['gender'];
+	$counsellor= $_POST['counsellor'];
 	$staffOrStudent = $_POST['staffOrStudent'];
 	$studentOrStaffId = $_POST['studentOrStaffId'];
 	$email = $_POST['email'];
@@ -15,7 +16,7 @@
 	// Database connection
 	$conn = new mysqli('db4free.net','rahmatabc12','rahmatabc12','rahmatabc12');
 
-	$sql = "INSERT into registration(firstName, lastName, gender, staffOrStudent, studentOrStaffId, email, number, address, contact) VALUES ('$firstName', '$lastName', '$gender', '$staffOrStudent', '$studentOrStaffId', '$email', '$number', '$address', '$contact')";
+	$sql = "INSERT into registration(firstName, lastName, gender,counsellor, staffOrStudent, studentOrStaffId, email, number, address, contact) VALUES ('$firstName', '$lastName', '$gender', '$counsellor', '$staffOrStudent', '$studentOrStaffId', '$email', '$number', '$address', '$contact')";
 
 	if ($conn->query($sql) === TRUE) {
 		echo "Registration Successful";
