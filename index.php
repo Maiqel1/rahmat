@@ -64,104 +64,55 @@
     <br /><br /><br />
 
     
-    <div class="container">
-      <div class="row ms-5">
-        <div class="col-md-9 mx-auto flex-end bg-light caro">
-          <br /><br />
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="img/pexels-christina-morillo-1181712.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  style="object-fit: contain; object-position:center center;"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/pexels-cottonbro-4101137.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  style="object-fit: contain; object-position:center center;"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/pexels-mentatdgt-1311518.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                  style="object-fit: contain; object-position:center center;"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+    <div class="container col-md-8">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/pexels-christina-morillo-1181712.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pexels-cottonbro-4101143.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pexels-mentatdgt-1311518.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <br><br>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <br /><br />
-
-    <br /><br />
-    <br><br><br><br><br><br>
+  </div>
+  <br /><br />
+  
+    <div>
+      <section class="text-center ">
+        <h2>Get Counselling Today!</h3>
+      </section>
+    </div>
     <br><br><br>
 
-
-
+    <section class="container text-center">
+      <p >We at the guidance and counselling department are here to help you in anyway we can, guide you through the toughest of times, and ensure the stability of your mental well-being.<br> You can message your counsellor anytime, and you can also schedule a weekly phone, video, or live chat session with your counsellor. <br> Reach out to us today, via the form below</p>
+    </section>
+    <br><br><br>
 
     <div class="container bg-light">
       <div class="panel-body">
         <form action="connect.php" method="POST">
+         <section class="text-center">
+          <h3>Registration form</h3>
+          <p>Please fill out this form appropriately</p>
+         </section>
           <div class="form-group">
             <label for="staffOrStudent">Are you a staff or student?</label>
             <div>
@@ -172,7 +123,7 @@
                   value="staff"
                   id="staff"
                 />Staff</label
-              >
+              > &nbsp; &nbsp; &nbsp;
               <label for="Student" class="radio-inline"
                 ><input
                   type="radio"
@@ -181,7 +132,7 @@
                   id="student"
                 />Student</label
               >
-            </div>
+            </div><br>
           </div>
           <div class="form-group">
             <label for="studentOrStaffId">Student/Staff ID</label>
@@ -191,7 +142,7 @@
               id="studentOrStaffId"
               name="studentOrStaffId"
             />
-          </div>
+          </div><br>
           <div class="form-group">
             <label for="firstName">First Name</label>
             <input
@@ -200,7 +151,7 @@
               id="firstName"
               name="firstName"
             />
-          </div>
+          </div><br>
           <div class="form-group">
             <label for="lastName">Last Name</label>
             <input
@@ -209,7 +160,7 @@
               id="lastName"
               name="lastName"
             />
-          </div>
+          </div><br>
           <div class="form-group">
             <label for="gender">Gender</label>
             <div>
@@ -220,7 +171,7 @@
                   value="male"
                   id="male"
                 />Male</label
-              >
+              >  &nbsp; &nbsp; &nbsp;
               <label for="female" class="radio-inline"
                 ><input
                   type="radio"
@@ -230,7 +181,28 @@
                 />Female</label
               >
             </div>
-          </div>
+          </div><br>
+          <div class="form-group">
+            <label for="counsellor">Would you like a male of female counsellor?</label>
+            <div>
+              <label for="male" class="radio-inline"
+                ><input
+                  type="radio"
+                  name="counsellor"
+                  value="male"
+                  id="male"
+                />Male</label
+              >  &nbsp; &nbsp; &nbsp;
+              <label for="female" class="radio-inline"
+                ><input
+                  type="radio"
+                  name="counsellor"
+                  value="female"
+                  id="female"
+                />Female</label
+              >
+            </div>
+          </div><br>
           <div class="form-group">
             <label for="email">Email</label>
             <input
@@ -239,7 +211,7 @@
               id="email"
               name="email"
             />
-          </div>
+          </div><br>
           <div class="form-group">
             <label for="number">Phone Number</label>
             <input
@@ -248,7 +220,7 @@
               id="number"
               name="number"
             />
-          </div>
+          </div><br>
           <div class="form-group">
             <label for="address">Address</label>
             <input
@@ -257,7 +229,7 @@
               id="address"
               name="address"
             />
-          </div>
+          </div> <br>
           <div class="form-group">
             <label for="contact">How would you like us to contact you?</label>
             <div>
@@ -268,7 +240,7 @@
                   value="chat"
                   id="chat"
                 />Chat/Instant Messaging</label
-              >
+              > &nbsp; &nbsp; &nbsp;
               <label for="voice" class="radio-inline"
                 ><input
                   type="radio"
@@ -276,7 +248,7 @@
                   value="voice"
                   id="voice"
                 />Voice Chat</label
-              >
+              > &nbsp; &nbsp; &nbsp;
               <label for="video" class="radio-inline"
                 ><input
                   type="radio"
@@ -285,7 +257,7 @@
                   id="video"
                 />Video Chat</label
               >
-            </div>
+            </div><br>
           </div>
 
           
@@ -300,35 +272,14 @@
     </div>
 
     <footer class="container-fluid bg-primary">
-        <div class="row">
-            <section class="col-md-7 ms-lg-3">
-               <div class="row col">
-                   <div class="space" style="margin-top: 70px;"></div>
-                   <div class="col-md-3 ms-lg-3" style="width: 127px;">
-                       <img src="img/img3.png" class="img-fluid" alt="">
-                   </div>
-                <p class="col-md-3 text-white">Become a Reseller</p>
-                <p class="col-md-3 text-white ">Become an Investor</p>
-                <p class="col-md-3 text-white">Developers</p>
-               </div><br><br>
-               <p class="ms-lg-3 text-white">Need Assistance?</p>
-               <p class="ms-lg-3 text-white"> <i class="fa fa-envelope fa-1x"></i>Rechargecare@gmail.com</p>
-               <br>
-
-                <p class="text-white ms-lg-3">@2021Recharge!</p>
-                <a href="" class="text-white ms-lg-3" style="text-decoration: none;">Terms and Conditions</a>
-            </section>
-            <section class="col-md-4 ms-lg-5 ps-lg-5 flex-end">
-                <div class="space d-none d-lg-block d-xl-none" style="margin-top: 70px;"></div>
-               <div class="row footerLinks mt-5">
-                    <i class="fa fa-twitter d-inline fa-3x col-1 text-white w-30  ms-5"></i>
-                    <i class="fa fa-instagram fa-3x d-inline col-1 text-white ms-5 ps-5"></i>
-                    <i class="fa fa-facebook fa-3x d-inline col-1 text-white  ms-5 ps-5"></i>
-               </div><br>
-               <p class="ms-5 text-white"> <i class="fa fa-phone fa-1x"></i> 08080808080</p>
-               <p class="ms-5 text-white"> <i class="fa fa-whatsapp fa-1x"></i> 08080808080</p>
-               <p class="ms-5 text-white"><i class="fa fa-envelope fa-1x"></i> Rechargecare@gmail.com</p>
-            </section>
+        <div class="text-center"><br><br>
+           <section>
+             <h2 class="text-white">Project: Design and Implementation of an Online Guidance and counseling system: case study of Kwara State college of education, Ilorin.</h2>
+             <h4 class="mt-3 text-white">Name: Opadiran Masudah Opeyemi </h4>
+             <h4 class="mt-3 text-white">Matric Number: 17/52hl075</h4>
+             <h4 class="mt-3 text-white">Supervisor: Mrs. Shakirat O. Sulyman- Haroon</h4>
+             <h4  class="mt-3 text-white">Department of Information and Communication Science, university of Ilorin.</h4>
+           </section>
         </div>
     </footer>
 
