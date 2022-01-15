@@ -57,7 +57,7 @@
           service
         </h1>
         <br />
-        <h5>How to get counselling support if you a student or member of staff.</h5>
+        <h5>How to get counselling support if you are a student or member of staff.</h5>
       </section>
     </header>
     <br /><br /><br />
