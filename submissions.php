@@ -35,17 +35,16 @@
         <table>
             <tr>
                 <th>Id</th>
-                <th>firstName</th>
-                <th>lastName</th>
-                <th>gender</th>
-                <th>staffOrStudent</th>
-                <th>studentOrStaffId</th>
-                <th>gender</th>
-                <th>counsellor</th>
-                <th>email</th>
-                <th>number</th>
-                <th>address</th>
-                <th>contact</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Gender</th>
+                <th>Staff/Student</th>
+                <th>Student/Staff Id</th>
+                <th>Counsellor</th>
+                <th>Email</th>
+                <th>Number</th>
+                <th>Address</th>
+                <th>Method For Session</th>
                 
             </tr>
             <?php
@@ -55,7 +54,7 @@
 
             if ($result->num_rows > 0 ){
                 while($row = $result-> fetch_assoc()){
-                    echo "<tr><td>".$row["id"] ."</td><td>" .$row["firstName"] ."</td><td>" .$row["lastName"]."</td><td>" .$row["gender"] ."</td><td>" .$row["staffOrStudent"] ."</td><td>" .$row["studentOrStaffId"] ."</td><td>" .$row["gender"]."</td><td>".$row["counsellor"]."</td><td>".$row["email"]."</td><td>".$row["number"]."</td><td>" .$row["address"]."</td><td>" .$row["contact"]."</td><td>" ;
+                    echo "<tr><td>".$row["id"] ."</td><td>" .$row["firstName"] ."</td><td>" .$row["lastName"]."</td><td>" .$row["gender"] ."</td><td>" .$row["staffOrStudent"] ."</td><td>" .$row["studentOrStaffId"] ."</td><td>".$row["counsellor"]."</td><td>".$row["email"]."</td><td>".$row["number"]."</td><td>" .$row["address"]."</td><td>" .$row["contact"]."</td><td>" ;
                 }
             } else {
                 echo "No results";
