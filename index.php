@@ -276,7 +276,7 @@
            <section>
              <h2 class="text-white">Project: Design and Implementation of an Online Guidance and counseling system: case study of Kwara State college of education, Ilorin.</h2>
              <h4 class="mt-3 text-white">Name: Opadiran Masudah Opeyemi </h4>
-             <h4 class="mt-3 text-white">Matric Number: 17/52hl075</h4>
+             <h4 class="mt-3 text-white">Matric Number: 17/52hl095</h4>
              <h4 class="mt-3 text-white">Supervisor: Mrs. Shakirat O. Sulyman- Haroon</h4>
              <h4  class="mt-3 text-white">Department of Information and Communication Science, university of Ilorin.</h4>
            </section>
