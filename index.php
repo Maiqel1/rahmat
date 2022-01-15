@@ -35,15 +35,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-lg-5 ps-lg-5">
               <li class="nav-item">
-                Home
+                <a href="#" style="text-decoration: none;" class="text-black">Home</a>
               </li>
               &nbsp; &nbsp; &nbsp;
               <li class="ms-lg-5 nav-item">
-                Register
+               <a href="#register" style="text-decoration: none;" class="text-black">Register</a>
               </li>
               &nbsp; &nbsp; &nbsp;
               <li class="ms-lg-5 nav-item">
-                About
+                <a href="#about" style="text-decoration: none;" class="text-black">About</a>
               </li>
             </ul>
           </div>
@@ -106,7 +106,7 @@
     </section>
     <br><br><br>
 
-    <div class="container bg-light">
+    <div class="container bg-light" id="register">
       <div class="panel-body">
         <form action="connect.php" method="POST">
          <section class="text-center">
@@ -271,7 +271,7 @@
       
     </div>
 
-    <footer class="container-fluid bg-primary">
+    <footer class="container-fluid bg-primary" id="about">
         <div class="text-center"><br><br>
            <section>
              <h2 class="text-white">Project: Design and Implementation of an Online Guidance and counseling system: case study of Kwara State college of education, Ilorin.</h2>
